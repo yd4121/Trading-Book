@@ -14,7 +14,7 @@ body{background:var(--bg);color:var(--text);font-family:'IBM Plex Mono',monospac
 .logo{font-size:14px;font-weight:700;letter-spacing:2px;color:var(--gold)}
 .status{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:6px}
 .dot{width:8px;height:8px;border-radius:50%;background:#a07c10;flex-shrink:0}
-.dot.ok{background:var(--win)}.dot.error{background:var(--loss)}
+.dot.ok{background:var(--win)}.dot.errorg Log{background:var(--loss)}
 .tabs{display:flex;background:var(--surf);border-bottom:1px solid var(--bord);position:sticky;top:48px;z-index:99;overflow-x:auto}
 .tab{flex:1;min-width:55px;padding:10px 2px;border:none;background:transparent;color:var(--muted);font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;border-bottom:2px solid transparent;font-family:inherit;white-space:nowrap}
 .tab.active{color:var(--gold);border-bottom-color:var(--gold)}
